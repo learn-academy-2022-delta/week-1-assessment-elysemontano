@@ -8,6 +8,14 @@
 
 // Pseudo code:
 
+// Using given variables
+// Declare a function called stringCombo
+// Set parameters (string1, string2)
+// Use conditional statement to compare passed in strings
+  // if string1 is greater than string 2 -- we will return string1
+  // use else or else if to evaluate the opposite and return the other string
+
+
 // Set one:
 const fruit1 = "apple"
 const fruit2 = "banana"
@@ -15,6 +23,19 @@ const fruit2 = "banana"
 // Set two:
 const fruit3 = "cherry"
 const fruit4 = "kiwi"
+
+const stringCombo = (string1, string2) => {
+  if(string1.length > string2.length) {
+    return string1
+  } else if(string1.length < string2.length) {
+    return string2
+  } else {
+    return "Oops, neither are greater"
+  }
+}
+
+console.log(stringCombo(fruit1, fruit2)) // banana
+console.log(stringCombo(fruit3, fruit4)) // cherry
 
 
 // --------------------1) Create a function that takes in any given number and determines if the number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below. Expected output: "42 is below boiling point", "350 is above boiling point", "212 is at boiling point"
