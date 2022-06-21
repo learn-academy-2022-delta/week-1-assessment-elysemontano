@@ -17,7 +17,7 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 
   Researched answer: A conditional statement is making a decision about a specific evaluation and them performing some kind of an action on the block of code inside parethesis.  An conditional must have an if statement, but can also include else if, and/or else.
 
-
+  Adding something extra to show git...
 
 1. What is git? What is the difference between git and Github?
 
