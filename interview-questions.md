@@ -7,11 +7,17 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 INSTRUCTOR EXAMPLE: What is a conditional statement?
 
-  Your answer:
+  Your answer: A statement that executes after certain parameters are met.
+      For example:
+      if(number === 0) {
+        console.log(0)
+      }
+      If my number strictly equals 0 then retun the number 0
 
-  Researched answer:
 
+  Researched answer: A conditional statement is making a decision about a specific evaluation and them performing some kind of an action on the block of code inside parethesis.  An conditional must have an if statement, but can also include else if, and/or else.
 
+  Adding something extra to show git...
 
 1. What is git? What is the difference between git and Github?
 
