@@ -61,6 +61,8 @@ const myNumbers2 = [8, -7, 42, 9, 13]
 
 const currentCohort = "Delta 2022"
 
+// Write in my updated stuff to get my approval taking into account instructor feedback
+
 
 // --------------------4) Create a statement that will evaluate whether each number in an array is even or odd. Use the test variable provided below. Expected output: "odd" "even" "odd" "even" "odd" "even"
 
